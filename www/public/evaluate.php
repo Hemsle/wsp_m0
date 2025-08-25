@@ -3,7 +3,6 @@
 <head lang="sv"></head>
 <body>
 	<?php include 'eval.html'; ?>
-<h2>Resultat</h2>
 <?php
      	$ans1 = $_POST['q1'];
      	$ans2 = $_POST['q2'];
@@ -27,5 +26,6 @@
      	
      	echo("<p>" . $name . " fick " . $points . " av 5 möjliga</p>");
 ?>
+	<input type="text">
 </body>
 </html>
